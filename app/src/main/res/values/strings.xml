@@ -1,0 +1,170 @@
+<resources>
+    <string name="app_name">CyberGuard</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="interactive_modules">Interactive Modules</string>
+    <string name="real_time_tips">Real-Time Security Tips</string>
+    <string name="common_threats">Common Cyber Threats</string>
+    <string name="loading_threats">Loading threats...</string>
+    <string name="no_threats_found">No threats found in database.</string>
+    <string name="unnamed_threat">Unnamed Threat</string>
+    <string name="uncategorized">Uncategorized</string>
+    <string name="description">Description</string>
+    <string name="no_description">No description available</string>
+    <string name="risk_level">Risk Level</string>
+    <string name="not_specified">Not specified</string>
+    <string name="prevention">Prevention</string>
+    <string name="no_prevention_tips">No prevention tips available</string>
+    <string name="load_threats_error">Failed to load threats: %1$s</string>
+    <string name="error_loading_threats">Error loading threats. Please try again.</string>
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </string>
+    <string name="email_fab_description">Send an email</string>
+
+    <string name="module_content">
+    <![CDATA[
+<b>OWASP Top Ten (2021):</b><br/><br/>
+
+🔓 <b>1. Broken Access Control</b><br/>
+Access restrictions are not enforced properly, allowing attackers to act as users or admins.<br/><br/>
+
+🔐 <b>2. Cryptographic Failures</b><br/>
+Sensitive data is exposed due to weak or missing encryption and improper key management.<br/><br/>
+
+💉 <b>3. Injection</b><br/>
+Untrusted input is sent to an interpreter (e.g., SQL, NoSQL, OS), leading to code execution.<br/><br/>
+
+🛠️ <b>4. Insecure Design</b><br/>
+Flawed application architecture or logic that fails to anticipate abuse cases.<br/><br/>
+
+⚙️ <b>5. Security Misconfiguration</b><br/>
+Improper configuration of servers, frameworks, or permissions can expose vulnerabilities.<br/><br/>
+
+📦 <b>6. Vulnerable and Outdated Components</b><br/>
+Using old libraries or software that have known security issues.<br/><br/>
+
+🧑‍💻 <b>7. Identification & Authentication Failures</b><br/>
+Poor implementation of authentication mechanisms leads to unauthorized access.<br/><br/>
+
+🧪 <b>8. Software & Data Integrity Failures</b><br/>
+Lack of integrity checks on software updates or CI/CD pipelines can allow tampering.<br/><br/>
+
+📉 <b>9. Security Logging & Monitoring Failures</b><br/>
+Insufficient logging and alerting delays threat detection and response.<br/><br/>
+
+🌐 <b>10. Server-Side Request Forgery (SSRF)</b><br/>
+SSRF flaws allow attackers to make internal server requests from an untrusted source.<br/>
+    ]]>
+</string>
+
+    <string name="common_cyber_threats">Common Cyber Threats</string>
+
+    <string name="threats_content"><![CDATA[
+<b>1. Phishing Attacks:</b><br>
+- Cybercriminals send fake emails or messages to trick you into revealing sensitive information.<br>
+- Example: A fake email claiming to be from your bank asking for your login credentials.<br>
+- Prevention: Be cautious of unsolicited emails, check for spelling errors, and don’t click on suspicious links.<br><br>
+
+<b>2. Malware:</b><br>
+- Malicious software designed to damage or gain unauthorized access to your device.<br>
+- Types: Viruses, worms, ransomware, spyware.<br>
+- Prevention: Install antivirus software and avoid downloading files from untrusted sources.<br><br>
+
+<b>3. Ransomware:</b><br>
+- A type of malware that encrypts your files and demands payment for their release.<br>
+- Prevention: Regularly back up your data and avoid clicking on suspicious links.<br><br>
+
+<b>4. Social Engineering:</b><br>
+- Attackers manipulate you into divulging confidential information.<br>
+- Example: Pretending to be a tech support agent and asking for your password.<br>
+- Prevention: Be suspicious of unsolicited requests for sensitive information and verify identities.<br><br>
+
+<b>5. Man-in-the-Middle (MITM) Attacks:</b><br>
+- Attackers intercept communication between two parties to steal data.<br>
+- Prevention: Use encrypted connections (HTTPS) and avoid public Wi-Fi for sensitive transactions.<br><br>
+
+<b>6. Password Attacks:</b><br>
+- Attackers use brute force or dictionary attacks to guess your password.<br>
+- Prevention: Use strong, unique passwords and enable 2FA.<br><br>
+
+<b>7. IoT Vulnerabilities:</b><br>
+- Internet of Things (IoT) devices often have weak security, making them easy targets.<br>
+- Prevention: Change default passwords, keep firmware updated, and secure your IoT devices with encryption.<br><br>
+
+<b>8. DDoS Attacks:</b><br>
+- Distributed Denial of Service attacks aim to overwhelm systems and make them unavailable.<br>
+- Prevention: Implement firewalls and traffic monitoring systems to detect and mitigate attacks.<br><br>
+
+<b>9. SQL Injection:</b><br>
+- Attackers insert malicious SQL code into input fields to manipulate or extract data from a database.<br>
+- Prevention: Use parameterized queries and sanitize inputs to prevent SQL injection.<br><br>
+
+<b>10. Cross-Site Scripting (XSS):</b><br>
+- A vulnerability where attackers inject malicious scripts into web pages viewed by other users.<br>
+- Prevention: Sanitize user input, escape output, and implement Content Security Policy (CSP).<br><br>
+
+<b>11. Insider Threats:</b><br>
+- When employees or trusted individuals misuse their access to systems or information for malicious purposes.<br>
+- Prevention: Implement strict access controls, monitor user activity, and educate employees on security practices.<br><br>
+
+<b>12. Zero-Day Exploits:</b><br>
+- Attacks targeting previously unknown vulnerabilities in software or hardware.<br>
+- Prevention: Regularly update and patch software and systems to protect against zero-day vulnerabilities.
+]]></string>
+
+
+    <string name="tips_content"><![CDATA[
+<b>1. Use Strong Passwords:</b><br>
+- Create passwords with at least 12 characters, including numbers, symbols, and uppercase/lowercase letters.<br>
+- Avoid using common words or personal information.<br><br>
+
+<b>2. Enable Two-Factor Authentication (2FA):</b><br>
+- Add an extra layer of security to your accounts by enabling 2FA.<br>
+- Use an authenticator app or SMS-based verification.<br><br>
+
+<b>3. Keep Software Updated:</b><br>
+- Regularly update your operating system, apps, and antivirus software to patch vulnerabilities.<br><br>
+
+<b>4. Be Cautious of Phishing Emails:</b><br>
+- Do not click on suspicious links or download attachments from unknown senders.<br>
+- Verify the sender’s email address before responding.<br><br>
+
+<b>5. Use a VPN on Public Wi-Fi:</b><br>
+- Avoid accessing sensitive information on public Wi-Fi networks.<br>
+- Use a Virtual Private Network (VPN) to encrypt your internet traffic.<br><br>
+
+<b>6. Backup Your Data:</b><br>
+- Regularly back up important files to an external drive or cloud storage.<br>
+- Ensure backups are encrypted and secure.<br><br>
+
+<b>7. Monitor Your Accounts:</b><br>
+- Regularly check your bank and online accounts for unauthorized transactions.<br>
+- Set up alerts for suspicious activity.<br><br>
+
+<b>8. Enable Security Features on Your Devices:</b><br>
+- Use features like "Find My Device" and biometric authentication for added protection.<br><br>
+
+<b>9. Use Antivirus and Anti-Malware Software:</b><br>
+- Install and regularly update antivirus software to detect and block malware.<br><br>
+
+<b>10. Be Cautious with Personal Information:</b><br>
+- Avoid oversharing on social media and protect your personal data from being exposed.<br><br>
+
+<b>11. Encrypt Sensitive Data:</b><br>
+- Use encryption tools to protect sensitive data both in transit and at rest.<br><br>
+
+<b>12. Educate Yourself and Others:</b><br>
+- Stay informed about new threats and educate those around you to improve overall security.<br><br>
+
+<b>13. Verify URLs:</b><br>
+- Before clicking a link, hover over it to ensure it leads to a legitimate website and not a fake one.<br><br>
+
+<b>14. Use Secure and Unique Wi-Fi Passwords:</b><br>
+- Ensure your home Wi-Fi network is protected with a strong password and WPA3 encryption.
+]]></string>
+</resources>

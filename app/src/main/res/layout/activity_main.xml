@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="5"
+    android:padding="16dp">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tipsButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:backgroundTint="#2196F3"
+        android:textColor="@color/white"
+        android:text="Cybersecurity Tips" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/threatsButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:backgroundTint="#2196F3"
+        android:textColor="@color/white"
+        android:text="Cyber Threats" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/quizButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:backgroundTint="#2196F3"
+        android:textColor="@color/white"
+        android:text="Quiz Module" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/newsFeedButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:backgroundTint="#2196F3"
+        android:textColor="@color/white"
+        android:text="Cybersecurity News Feed" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/securityCheckupButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:backgroundTint="#2196F3"
+        android:textColor="@color/white"
+        android:text="Device Security Checkup" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/habitTrackerButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:backgroundTint="#2196F3"
+        android:textColor="@color/white"
+        android:text="Cyber Hygiene Habit Tracker" />
+
+    <!-- Terminal Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/terminalButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:backgroundTint="#2196F3"
+        android:textColor="@color/white"
+        android:text="Terminal" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/modulesButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:backgroundTint="#2196F3"
+        android:textColor="@color/white"
+        android:text="Owasp Top 10" />
+</GridLayout>

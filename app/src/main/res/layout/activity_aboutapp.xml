@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to CyberGuard!"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CyberGuard is your digital companion for cybersecurity learning. \n\n• Learn safe online practices.\n• Take quizzes to test your knowledge.\n• Get real-time threat alerts.\n• Interact with our chatbot for help and advice.\n\nStay secure. Stay smart!"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnChatbot"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Chatbot"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#2196F3"
+        android:textColor="@android:color/white"/>
+
+
+
+    <Button
+        android:id="@+id/btnExploreModules"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Explore Modules"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:backgroundTint="#2196F3"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnMeetDevelopers"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Meet the Developers"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#2196F3"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

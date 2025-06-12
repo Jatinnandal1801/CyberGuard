@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cyber Hygiene Habit Tracker"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="10dp" />
+
+        <CheckBox
+            android:id="@+id/cbChangePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change passwords regularly" />
+
+        <CheckBox
+            android:id="@+id/cbEnable2FA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enable Two-Factor Authentication (2FA)" />
+
+        <CheckBox
+            android:id="@+id/cbAvoidPublicWiFi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avoid public WiFi for sensitive logins" />
+
+        <CheckBox
+            android:id="@+id/cbUpdateSoftware"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update software and apps regularly" />
+
+        <CheckBox
+            android:id="@+id/cbCheckAppPermissions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Review app permissions" />
+
+        <!-- NEW HABITS -->
+        <CheckBox
+            android:id="@+id/cbUseVPN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use VPN on public networks" />
+
+        <CheckBox
+            android:id="@+id/cbBackupData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Backup data regularly" />
+
+        <CheckBox
+            android:id="@+id/cbUseBiometrics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use biometric authentication" />
+
+        <CheckBox
+            android:id="@+id/cbReviewActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Review account activity regularly" />
+
+        <CheckBox
+            android:id="@+id/cbAvoidPhishing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avoid phishing links" />
+
+        <Button
+            android:id="@+id/btnSaveHabits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Progress"
+            android:backgroundTint="#2196F3"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>

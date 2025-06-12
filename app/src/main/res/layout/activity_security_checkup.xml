@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvSecurityStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Security Checkup Results"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="10dp" />
+
+        <TextView
+            android:id="@+id/tvWifiStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WiFi Security: Checking..."
+            android:textSize="16sp"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:id="@+id/tvSoftwareStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Software Update: Checking..."
+            android:textSize="16sp"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:id="@+id/tvPermissionsStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App Permissions: Checking..."
+            android:textSize="16sp"
+            android:paddingBottom="5dp" />
+
+        <!-- Added missing views -->
+
+        <TextView
+            android:id="@+id/tvLockStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Screen Lock Status: Checking..."
+            android:textSize="16sp"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:id="@+id/tvDebugStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADB Debugging Status: Checking..."
+            android:textSize="16sp"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:id="@+id/tvUnknownSourcesStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unknown Sources Status: Checking..."
+            android:textSize="16sp"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:id="@+id/tvEncryptionStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Encryption Status: Checking..."
+            android:textSize="16sp"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:id="@+id/tvVpnStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VPN Status: Checking..."
+            android:textSize="16sp"
+            android:paddingBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnRunCheckup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Run Security Checkup"
+            android:backgroundTint="#2196F3" />
+
+    </LinearLayout>
+</ScrollView>
